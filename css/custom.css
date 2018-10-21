@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "Proza";
+  src: url('../fonts/prozaregular-webfont.woff');
+  src: url('../fonts/prozaregular-webfont.woff2');
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background:#f2f2f2;
+
+}
+
+body, p {
+  font-size:16px;
+}
+.site-container {
+  padding:1.83%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #f2f2f2;
+}
+
+footer img {
+    max-width:100px!important;
+    padding:0px 10px;
+}
+
+body, p, h1, h2, h3, h4, h5, h6  {
+  color:#464646;
+  font-family: "Proza";
+}
+
+nav li a, .light-gray {
+  color:#919191;
+  transition: 0.3s;
+}
+
+nav li a:hover {
+  color:#5A5B5B;
+  text-decoration: none;
+}
+nav.affix {
+  margin-top:20px;
+}
+nav.affix li {
+  padding:5px 0px;
+}
+
+.row {
+    margin-right:0px;
+    margin-left:0px;
+}
+.preload {
+  display:none;
+}
+
+.logo-row {
+  padding-top:1.68%;
+  padding-bottom:1.68%;
+}
+.svg {
+  max-width:50%;
+}
+
+.svg.loaded {
+  transition:0.3s;
+}
+
+.loop {
+  max-width:83.8%;
+  cursor:pointer;
+}
+
+.learn-more {
+  text-decoration: none!important;
+  transition:0.3s;
+  display:inline-block;
+  cursor: pointer!important;
+}
+
+
+/* Arrows */
+i {
+    border: solid #919191;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 7px;
+    transition:0.3s;
+}
+
+.learn-more:hover{
+    color:#5A5B5B;
+}
+
+.learn-more:hover i {
+  border-color:  #5A5B5B;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.up {
+    transform: rotate(225deg);
+    -webkit-transform: rotate(225deg);
+}
+
+.second-section, .watch-trailer {
+  display:none;
+}
+
+.text-center .img-responsive {
+  margin: 0 auto;
+}
+
+.screenshots img {
+  padding-bottom:10px;
+  max-width: 100%;
+}
+
+.copy {
+  color:#919191;
+  font-size:0.838em;
+}
+
+.video-container {
+    padding-top:56.25%;
+    width:100%;
+    height:0;
+    position:relative;
+    display:none;
+}
+
+.video-container iframe {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+@media screen and (min-width:769px){
+  .nav-container {
+    position:relative;
+  }
+
+}
+
+@media screen and (max-width:768px){
+  .affix {
+    position:static;
+  }
+
+}
