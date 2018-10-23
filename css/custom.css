@@ -3,6 +3,9 @@
   src: url('../fonts/prozaregular-webfont.woff');
   src: url('../fonts/prozaregular-webfont.woff2');
 }
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:500,500i');
 html {
   position: relative;
   min-height: 100%;
@@ -19,6 +22,47 @@ body, p {
 }
 .site-container {
   padding:1.83%;
+}
+
+/*watch videos*/
+.watch-trailer-container {
+  background: #2E2E2E;
+  padding: 15px;
+  color: white;
+  position: relative;
+  height: 0px;
+  padding-top: 56.25%;
+  cursor:pointer;
+  -webkit-box-shadow: inset 0px 0px 42px 0px rgba(0,0,0,0.69);
+  -moz-box-shadow: inset 0px 0px 42px 0px rgba(0,0,0,0.69);
+  box-shadow: inset 0px 0px 42px 0px rgba(0,0,0,0.69);
+  border-radius:4px;
+}
+.watch-trailer-container * {
+  font-family: "Roboto";
+  font-weight:medium;
+}
+.watch-trailer-title {
+  font-size: 3em;
+  text-transform: uppercase;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 33%;
+}
+
+.watch-trailer-container:hover .watch-trailer-link{
+  text-decoration:underline;
+}
+
+.watch-trailer-link {
+  position:absolute;
+  left:0;
+  right:0;
+  bottom: 16.2%;
+  font-style: italic;
+
 }
 footer {
   position: fixed;

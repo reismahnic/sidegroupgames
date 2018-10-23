@@ -39,6 +39,11 @@ $('.loop').hover(function(){
     $(this).attr('src', currentAttr);
   })
 });
+$('.ubercold').click (function(){
+  $(this).hide();
+  $("#ubercold-video").show();
+  $("#ubercold-video").html('<iframe src="https://player.vimeo.com/video/296369486?autoplay=1" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+})
 $('.loop').click(function(){
     $(this).hide();
      $('.video-container').show();
