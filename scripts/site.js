@@ -55,3 +55,5 @@ $('.learn-more').click(function(){
   $('.arrow.down').toggleClass( "up" );
   $('.first-section, .second-section').slideToggle();
 });
+
+//@codekit-append "blueimp-gallery.min.js", "lazyload.js", "rotate.js";
