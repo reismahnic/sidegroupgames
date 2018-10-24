@@ -39,7 +39,7 @@ body, p {
   border-radius:4px;
 }
 .watch-trailer-container * {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
 }
 .watch-trailer-title {
   font-size: 2em;
