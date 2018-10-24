@@ -28,6 +28,7 @@
         <div class="col-sm-3 nav-container">
           <nav class="affix">
             <ul class="list-unstyled text-right preload">
+              <li><a href="#ubercold">Ubercold</a></li>
               <li><a href="#loop">Waiting for the Loop</a></li>
               <li><a href="#other">About</a></li>
               <li><a href="#other">Other Games</a></li>
@@ -35,12 +36,12 @@
           </nav>
         </div>
         <div class="col-sm-6">
-          <div class="row" id="loop">
+          <div class="row">
             <div class="col-sm-12 text-center">
               <img class="img-responsive svg" src="img/logo.svg" alt="Side Group Logo">
               <h1 class="preload">Side Group</h1>
               <br/>
-              <div class="row">
+              <div class="row" id="ubercold">
                 <div class="col-sm-12 preload">
                   <div class="loop-trailer-container first-section">
                     <div class="watch-trailer-container ubercold">
@@ -52,29 +53,53 @@
                     </div>
                   </div>
                   <br/>
-                  <p>A short form visual novel in which a brilliant computer scientist builds an artificial intelligence that passes as human… but also attracts the attention of the government.</p>
-				          <p>Created by Reis Mahnic, Bryan Minus and Tom Lechner.</p>
+                  <p>A stylish parody game featuring an unconventional weapon.
+                  <br/>In UBERCOLD, your only means of attack is a gun with no bullets. Hurl it at your foes and control how it returns to you - losing sight of your gun leaves you defenseless.</p>
+				          <p>Coming soon to Steam and itch.io!</p>
                   <br/>
 
                 </div>
+                <div id="ubercold-links" class="row screenshots preload">
+                  <div class="col-sm-6">
+                      <a href="img/ubercold1.jpg">
+                        <img class="img-responsive" src="img/ubercold1.jpg" >
+                      </a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="img/ubercold2.jpg">
+                      <img class="img-responsive" src="img/ubercold2.jpg" >
+                    </a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="img/ubercold3.jpg">
+                      <img class="img-responsive" src="img/ubercold3.jpg" >
+                    </a>
+                  </div>
+                  <div class="col-sm-6">
+                    <a href="img/ubercold4.jpg">
+                      <img class="img-responsive" src="img/ubercold4.jpg" >
+                    </a>
+                  </div>				
+                </div>
               </div>
-              <div class="row">
+              <div class="row" id="loop">
                 <div class="col-sm-12 preload">
+                  <hr class="game-divider">
                   <div class="loop-trailer-container first-section">
                     <img class="loop img-responsive" src="img/loop-logo.png" alt="Watch Trailer">
                     <br/>
-                    <div class="video-container">
+                    <div id="loop-video" class="video-container">
                     </div>
                   </div>
                   <br/>
                   <p>A short form visual novel in which a brilliant computer scientist builds an artificial intelligence that passes as human… but also attracts the attention of the government.</p>
-				          <p>Created by Reis Mahnic, Bryan Minus and Tom Lechner.</p>
+                  <p>Created by Reis Mahnic, Bryan Minus and Tom Lechner.</p>
+                  <p class="text-center">Available now at: <a href="http://store.steampowered.com/app/717830/Waiting_for_the_Loop/" target="_blank"><img src="img/steam.png" class="img-responsive" style="display:inline" alt="steam logo"></a> and <a href="https://side-group.itch.io/waiting-for-the-loop" target="_blank"><img src="img/logo_color.png" class="img-responsive" width="100px" style="display:inline" alt="itch.io logo"></a> </p>
                   <br/>
 
                 </div>
               </div>
-            </div>
-            <div id="links" class="row screenshots preload">
+              <div id="loop-links" class="row screenshots preload">
                 <div class="col-sm-6">
                     <a href="img/WaitingForTheLoop 2017-08-09 16-29-01-27.jpg">
                       <img class="img-responsive" src="img/WaitingForTheLoop 2017-08-09 16-29-01-27.jpg" >
@@ -96,15 +121,16 @@
                     </a>
                 </div>				
               </div>
+            </div>
           </div>
             <br/><br/>		
             <div class="row preload" id="other">
                 <div class="col-sm-12 text-center">
-				<a href="https://twitter.com/SideGroupGames?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @SideGroupGames</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
                     <h2>About Side Group</h2>
+                    <p>Side Group is a game development and publishing company founded by Reis Mahnic, a member of the Portland indie game development community with a background in programming and film</p>
                     <p>Before Side Group, Reis Mahnic worked on a number of games in the Portland indie game community. They can be downloaded for free <a href="http://www.reismahnic.com" target="_blank">here</a>.</p>
 										
-				</div>
+				          </div>
             </div>
 
           
@@ -118,9 +144,8 @@
         <div class="row">
           <div class="col-sm-12 text-center">
             <br/>
-			<p class="text-center">Available now at: <a href="http://store.steampowered.com/app/717830/Waiting_for_the_Loop/" target="_blank"><img src="img/steam.png" class="img-responsive" style="display:inline" alt="steam logo"></a> and <a href="https://side-group.itch.io/waiting-for-the-loop" target="_blank"><img src="img/logo_color.png" class="img-responsive" width="100px" style="display:inline" alt="itch.io logo"></a> </p>
-            <br/>
             <p class="copy">&copy; <span id="copyYear"></span> Side Group</p>
+            <p><a href="https://twitter.com/SideGroupGames" target="_blank" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @SideGroupGames</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
           </div>
         </div>
       </div>
@@ -139,15 +164,16 @@
 
     <script src="scripts/site.js"></script>
     <script>
-      document.getElementById('links').onclick = function (event) {
-          event = event || window.event;
-          var target = event.target || event.srcElement,
-              link = target.src ? target.parentNode : target,
-              options = {index: link, event: event},
-              links = this.getElementsByTagName('a');
-          blueimp.Gallery(links, options);
-      };
+      $('.screenshots').click(function(event){
+        event = event || window.event;
+        var target = event.target || event.srcElement,
+            link = target.src ? target.parentNode : target,
+            options = {index: link, event: event},
+            links = this.getElementsByTagName('a');
+        blueimp.Gallery(links, options);
+      })
       </script>
+      <script src="scripts/lazyload.js"></script>
 
   </body>
 </html>

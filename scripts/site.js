@@ -46,8 +46,8 @@ $('.ubercold').click (function(){
 })
 $('.loop').click(function(){
     $(this).hide();
-     $('.video-container').show();
-    $('.video-container').html('<iframe src="https://player.vimeo.com/video/230518869?autoplay=1" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+     $('#loop-video').show();
+    $('#loop-video').html('<iframe src="https://player.vimeo.com/video/230518869?autoplay=1" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
 })
 
 $('.learn-more').click(function(){

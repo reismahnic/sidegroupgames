@@ -43,7 +43,7 @@ body, p {
   font-weight:medium;
 }
 .watch-trailer-title {
-  font-size: 3em;
+  font-size: 2em;
   text-transform: uppercase;
   display: block;
   position: absolute;
@@ -190,6 +190,13 @@ i {
     position:absolute;
     top:0;
     left:0;
+}
+
+hr.game-divider {
+  width:100%;
+  border-top:1px solid #919191;
+  padding:20px 0px;
+
 }
 @media screen and (min-width:769px){
   .nav-container {
