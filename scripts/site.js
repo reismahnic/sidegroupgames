@@ -39,6 +39,11 @@ $('.loop').hover(function(){
     $(this).attr('src', currentAttr);
   })
 });
+$('.fogtown').click (function(){
+  $(this).hide();
+  $("#fogtown-video").show();
+  $("#fogtown-video").html('<iframe src="https://www.youtube.com/watch?v=M-aW-UXlz38" width="100%" height="auto" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+})
 $('.river').click (function(){
   $(this).hide();
   $("#river-video").show();
